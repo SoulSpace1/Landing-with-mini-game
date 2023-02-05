@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header center">
+        <h1 class="header__title">Добро пожаловать на мой сайт !</h1>
+        <div class="header__subtitle">
+            <p>Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        </div>
+        <button class="header__button">Поехали!</button>
+    </div>
+    <div class="menu center">
+        <div class="menu__games">
+            <div class="menu__game">
+                <p class="menu__game_1 name">Игра 1</p>
+                <a class="game__img" href="#"><img class="game__img" src="img/game1.png" alt="game1"></a>
+            </div>
+            <div class="menu__game">
+                <p class="menu__game_2 name">Игра 2</p>
+                <a class="game__img" href="#"><img class="game__img" src="img/game2.png" alt="menu__game2"></a>
+            </div>
+            <div class="menu__game">
+                <p class="menu__game_3 name">Игра 3</p>
+                <a class="game__img" href="#"><img class="game__img" src="img/game3.png" alt="menu__game3"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="game__season center">
+    <div class="game__words_one">
+        <h1 class="name__game">Времена года!</h1>
+        <p class="about__game">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+        <button class="header__button" onclick="gameSeasons()">Играть!</button>
+    </div>
+        <div class="video_game__img">
+            <img class="video-game__img" src="img/undraw_video_game.png" alt="undraw_video_game">
+        </div>
+    </div>
+    <div class="game__remember center">
+        <div class="video_game">
+            <img class="video-game__img" src="img/undraw_video_game2.png" alt="undraw_video_game">
+        </div>
+        <div class="game__words">
+            <h1 class="name__game">Запомни слова</h1>
+            <p class="about__game">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить</p>
+            <button class="header__button" onclick="gameRemember()">Играть</button>
+        </div>
+    </div>
+    <div class="game__puzzle center">
+        <h1 class="name__game">Игра в загадки</h1>
+        <p class="about__game-long">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+        <button class="header__button" onclick="gamePuzzle()">Играть</button>
+    </div>
+<div class="footer center">
+    <p class="footer__text">Все права защищены</p>
+</div>
+    <script src="game_seasons.js"></script>
+</body>
+</html>

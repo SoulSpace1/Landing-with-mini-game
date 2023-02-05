@@ -1,0 +1,120 @@
+@media (max-width: 769px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__title{
+        width: 343px;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__subtitle{
+        width: 343px;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__button{
+        margin-top: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none; 
+    }
+
+    .menu{
+        height: 1221px;
+    }
+
+    .menu__games{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game__img{
+        width: 343px;
+        height: 300px;
+    }
+
+    .game__season{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .game__words_one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .game__words {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .name__game{
+        font-weight: 700;
+        padding-top: 52px;
+        font-size: 29px;
+        line-height: 39px;
+        width: 243px;
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+
+    .about__game{
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+ 
+    .video-game__img{
+        width: 344px;
+        height: 236px;
+        margin-top: 33px;
+    }
+
+    .game__remember{
+        padding-top: 51px;
+        padding-bottom: 90px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .game__puzzle{
+        padding-top: 51px;
+    }
+
+    .about__game-long{
+        width: 343px;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+}
