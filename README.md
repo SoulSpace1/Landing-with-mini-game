@@ -1,1 +1,1 @@
-# Lending-with-mini-game
+# Landing-with-mini-game
